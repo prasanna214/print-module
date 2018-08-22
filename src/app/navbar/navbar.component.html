@@ -1,0 +1,13 @@
+
+<!-- search form 1 -->
+
+<nav>
+<div class="searchbox_1">
+  <input [(ngModel)]="searchKeyWord" type="search" class="search_1" placeholder="Search" />
+  <ul *ngFor="let concept of concepts | filter: searchKeyWord">
+    <li>
+      <a routerLink="/form/{{concept}}">{{concept}}</a>
+    </li>
+  </ul>
+</div>
+</nav>
