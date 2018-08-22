@@ -5,10 +5,6 @@ import {FormComponent} from './form/form.component';
 
 const routes: Routes = [
   {
-    path : '',
-    component : NavbarComponent
-  },
-  {
     path : 'form/:name',
     component : FormComponent
   }

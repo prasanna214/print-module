@@ -1,9 +1,9 @@
 <div class="form"><p>
+  <div class="formName">{{name}}</div>
   <ul>
     <li *ngFor="let concept of setMembers">
       {{concept}}
-      <div ng-include="form.component.html" onload="recur()">
-      </div>
+      <div ng-include = "form.component.html" onload="recur()"> </div>
     </li>
   </ul>
 </div>

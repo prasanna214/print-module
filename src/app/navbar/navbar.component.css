@@ -1,36 +1,44 @@
-.searchbox_1{
-  background-color: #fffbf8;
-  padding:13px;
-  width:335px;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
-  border-radius:6px;
-  -webkit-box-shadow:
-    0 2px 4px 0 rgba(72, 72, 72, 0.83),
-    0 10px 15px 0 rgba(126, 126, 126, 0.12),
-    0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset,
-    0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
-  -moz-box-shadow:
-    0 2px 4px 0 rgba(72, 72, 72, 0.83),
-    0 10px 15px 0 rgba(126, 126, 126, 0.12),
-    0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset,
-    0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
-  box-shadow:
-    0 2px 4px 0 rgba(72, 72, 72, 0.83),
-    0 10px 15px 0 rgba(126, 126, 126, 0.12),
-    0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset,
-    0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+nav {
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #BBB;
+  position: fixed;
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 250px;
+  height: auto;
+  top: 38px;
+  bottom: 50px;
+  background: #FFF;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li a {
+  color: black;
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  background: #699;
+  color: white;
+}
+nav ul li .activated {
+  background-color: #00a8ff;
 }
 .search_1{
-  width:250px;
-  height:30px;
+  width:100%;
+  height:40px;
   padding-left:15px;
   border-radius:6px;
   border:none;
   color:#0F0D0D;;
   font-weight:500;
-  background-color:#E2EFF7;;
+  background-color:#94b8b8;
   -webkit-box-shadow:
     0 -2px 2px 0 rgba(199, 199, 199, 0.55),
     0 1px 1px 0 #fff,
@@ -55,4 +63,8 @@
 }
 .search_1:focus{
   outline:0;
+}
+a:hover{
+  background: #699;
+  color: white;
 }

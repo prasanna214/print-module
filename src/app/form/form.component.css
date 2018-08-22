@@ -1,3 +1,11 @@
 .form{
   margin: 25px 50px 75px 100px;
 }
+.formName{
+  margin: 0;
+  background: #699;
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 0px;
+}
