@@ -1,0 +1,42 @@
+button{
+  width: 200px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  float: left;
+  margin: 0 2px 2px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 32px!important;
+  border-radius: 3px;
+  background: linear-gradient(to bottom,#FFF,#DDD) #DDD;
+  border: 1px solid #DDD;
+  padding: 6px 20px 7px;
+  display: inline-block;
+}
+
+.TextBox{
+  height: 35px;
+  width: 500px;
+  box-sizing: border-box;
+  color: #363463;
+  padding: 2px 10px;
+  margin: 5px 0 0;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+}
+.concept.question{
+  width: 25%;
+}
+.concept.answer{
+  width: 75%;
+}
+.question .answer
+{
+  border: 1px solid white;
+  float: left;
+  min-height: 450px;
+  color: white;
+}

@@ -10,6 +10,7 @@ import {ConceptService} from '../concept.service';
 export class FormComponent implements OnInit {
   name: String;
   setMembers: Array<String>;
+  form: any;
 
   constructor(private route: ActivatedRoute, private router: Router, private conceptService: ConceptService) {
     this.route.params.subscribe(params => {
@@ -19,9 +20,11 @@ export class FormComponent implements OnInit {
   }
 
   ngOnInit() {
-    const formConcept = this.conceptService.getConcept(this.name);
-    this.setMembers = this.conceptService.getSetMemberNames(formConcept);
-    console.log(this.setMembers);
+    // const formConcept = this.conceptService.getConcept(this.name);
+    // this.setMembers = this.conceptService.getSetMemberNames(formConcept);
+    // console.log(this.setMembers);
+    this.form = this.conceptService.getFormDetails();
+    console.log('done');
   }
 
   recur(conceptName) {

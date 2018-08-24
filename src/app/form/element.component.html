@@ -1,0 +1,11 @@
+
+<div *ngIf="setMember.set" class="conceptSet">
+  <p class="conceptName">{{getConceptName()}}</p>
+  <ul class = set>
+    <li *ngFor="let concept of setMember.setMembers">
+        <app-concept [concept] = "concept" *ngIf="!concept.set"></app-concept>
+      <app-element [setMember]="concept" *ngIf="concept.set"></app-element>
+    </li>
+  </ul>
+</div>
+

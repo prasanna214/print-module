@@ -1,0 +1,21 @@
+<div class="concept">
+<div class="question">
+  {{getConceptName()}}
+</div>
+<div class = "answer" *ngIf="isDataTypeCoded()">
+  <ul>
+    <li *ngFor="let answer of concept.answers">
+      <button>
+        {{answer.name.display}}
+      </button>
+    </li>
+  </ul>
+</div>
+
+<div class = "answer" *ngIf="isDataTypeTextOrNumeric()">
+  <div class="TextBox"></div>
+</div>
+<br>
+</div>
+
+

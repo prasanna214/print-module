@@ -1,5 +1,6 @@
 import {Injectable} from '@angular/core';
 import * as data from './data.json';
+import * as form from './form.json';
 
 @Injectable({
   providedIn: 'root'
@@ -27,5 +28,9 @@ export class ConceptService {
 
   getSetMemberNames(concept) {
     return concept.setMembers.map(member => member.name.name);
+  }
+
+  getFormDetails() {
+    return form;
   }
 }

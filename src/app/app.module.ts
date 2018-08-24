@@ -7,13 +7,17 @@ import {FormsModule} from '@angular/forms';
 import {FilterPipe} from './filter.pipe';
 import { FormComponent } from './form/form.component';
 import {AppRoutingModule} from './app-routing.module';
+import { ElementComponent } from './form/element.component';
+import { ConceptComponent } from './form/concept.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FilterPipe,
-    FormComponent
+    FormComponent,
+    ElementComponent,
+    ConceptComponent
   ],
   imports: [
     BrowserModule,

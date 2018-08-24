@@ -1,0 +1,23 @@
+.set{
+  padding: 10px;
+  position: static;
+  border: 1px solid #ccc;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+.conceptSet{
+  position: relative;
+}
+.conceptName{
+  position: absolute;
+  padding: 2px 10px;
+  font-size: 12px;
+  top: 0px;
+  left: 10px;
+  font-family: OpenSansBold,Arial,sans-serif;
+  border: 1px solid #999;
+  border-radius: 20px;
+  text-transform: none;
+  line-height: 16px;
+  margin-top: 0px;
+}

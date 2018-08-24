@@ -1,11 +1,21 @@
 .form{
-  margin: 25px 50px 75px 100px;
+  margin: 50px 25px 75px 150px;
+  border: 1px solid #BBB;
+  border-radius: 8px;
+  position: fixed;
+  width: 75%;
+  height: 85%;
+  top: 30px;
+  bottom: 50px;
+  background: #FFF;
+  overflow-y: auto;
+  overflow-x: hidden;
+
 }
 .formName{
   margin: 0;
   background: #699;
   color: white;
   border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 0px;
+  padding: 15px;
 }
