@@ -9,7 +9,7 @@ button{
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 32px!important;
+  height: 32px;
   border-radius: 3px;
   background: linear-gradient(to bottom,#FFF,#DDD) #DDD;
   border: 1px solid #DDD;
