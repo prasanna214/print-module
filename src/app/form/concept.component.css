@@ -7,7 +7,7 @@ button{
   float: left;
   margin: 0 2px 2px 0;
   white-space: nowrap;
-  overflow: hidden !important;
+  overflow: hidden;
   text-overflow: ellipsis;
   height: 32px;
   border-radius: 3px;
